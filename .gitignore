@@ -1,0 +1,56 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Build and packaging artifacts ─────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.spec.bak
+
+# ── Release ZIPs (upload these to GitHub Releases, not the repo) ───────────────
+release/*
+!release/.gitkeep
+
+# ── MediaPipe model (large binary — users download it on first run) ────────────
+assets/*.task
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.secret
+
+# ── Editor / IDE ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ── Runtime output folders ────────────────────────────────────────────────────
+captures/
+recordings/
+screenshots/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
